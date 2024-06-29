@@ -28,6 +28,34 @@ This project is a part of the Frontend Masters Bootcamp. It focuses on HTML form
 - **CSS3**: For styling the form elements and layout with a unique alien-themed design.
 - **JavaScript**: For backend form submission to ensure functionality and email notifications.
 
+## Personal Learnings
+
+While working on this project, I revisited and found several concepts interesting and important:
+
+- **Label**: It is crucial for accessibility and enhances the user experience (UX).
+- **Name Attribute**: Essential for creating key/value pairs for backend processing.
+- **Fieldset and Legend**: Refreshed my understanding of grouping form elements.
+- **Input Attributes**: Reviewed various input attributes and their usage.
+- **Element Connections**: Gained a deeper understanding of how elements like `label`, `input`, `select`, and `option` connect and work together.
+
+### CSS Insights
+
+Although this wasn't primarily a CSS exercise, I learned a lot about the flex property. Specifically:
+
+- The importance of using `.wrapper > *` to set flex properties for child elements.
+- Understanding that setting flex properties for both parent and children (form and aside) ensures smooth responsiveness.
+- Realizing that without this, the layout wouldn't be as responsive as intended.
+
 ## Acknowledgements
 
 This project is part of the Frontend Masters Bootcamp, specifically focusing on HTML forms lessons. Special thanks to the instructors for providing valuable lessons and resources. Learn more at [Frontend Masters Bootcamp](https://frontendmasters.com/bootcamp/).
+
+## Getting Started
+
+To get started with this project, clone the repository and open the `forms.html` file in your browser.
+
+```sh
+git clone https://github.com/tak40/FM-BOOTCAMP-FORMS.git
+cd FM-BOOTCAMP-FORMS/begin
+open forms.html
+```
