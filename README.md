@@ -4,7 +4,7 @@
 
 This project is a part of the Frontend Masters Bootcamp. It focuses on HTML forms, specifically the lessons dedicated to HTML forms. This is me diving back into the basics to ensure I haven't missed anything and to hone my skills.
 
-![Screenshot](img/screenshot.png)
+![Screenshot](begin/img/screenshot.png)
 
 ## Project Structure
 
