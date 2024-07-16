@@ -1,13 +1,7 @@
 /* GLOBAL STYLING  */
 
-html {
+* {
   box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
 }
 
 body {
@@ -36,7 +30,7 @@ button {
   border: none;
   border-radius: 4px;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -59,9 +53,9 @@ button:active {
   width: 80%;
   margin: 2em auto;
   padding: 2em;
-  background: #fff;
+  background: #f1f1f1;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -71,7 +65,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-h3 {
+h2 {
   font-size: 1.5rem;
   color: #4caf50;
 }
@@ -87,15 +81,9 @@ label {
   color: #555;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="date"],
-input[type="number"],
-select,
-textarea {
-  width: calc(100% - 20px);
-  padding: 10px;
+.form-element {
+  width: 100%;
+  padding: 0.75em;
   margin-bottom: 1em;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -104,17 +92,15 @@ textarea {
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin-right: 10px;
+  margin-right: 0.75em;
 }
 
 form {
-  flex: 1 1 60%;
   min-width: 300px;
 }
 
 aside {
-  flex: 1 1 35%;
-  min-width: 400px;
+  width: 100%;
 }
 
 aside address {
@@ -129,7 +115,7 @@ fieldset {
 }
 
 legend {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #4caf50;
 }
@@ -147,20 +133,16 @@ legend {
   margin-right: 1.3em;
 }
 
-/* Ensure smooth wrapping and spacing */
-.wrapper > * {
-  flex-grow: 1;
-  flex-shrink: 1;
-  margin-bottom: 1em;
-}
+@media (min-width: 1000px) {
+  .wrapper {
+    flex-wrap: nowrap;
+  }
 
-@media (max-width: 800px) {
-  form,
-  aside {
-    flex: 1 1 100%;
+  section {
+    width: 65%;
   }
 
   aside {
-    margin: 0 auto;
+    width: 35%;
   }
 }

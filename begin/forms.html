@@ -21,17 +21,28 @@
           action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES"
           method="POST"
         >
-          <input type="hidden" name="send_to" value="tk40dev@gmail.com" />
+          <input
+            type="hidden"
+            name="send_to"
+            value="your registered email address here"
+          />
           <fieldset>
             <legend>Your Contact Information</legend>
             <p>
               <label for="name">Your Name</label>
-              <input type="text" id="name" name="name" required />
+              <input
+                type="text"
+                class="form-element"
+                id="name"
+                name="name"
+                required
+              />
             </p>
             <p>
               <label for="phone">Phone Number</label>
               <input
                 type="tel"
+                class="form-element"
                 id="phone"
                 name="phone"
                 placeholder="Don't forget your area code!"
@@ -40,7 +51,13 @@
             </p>
             <p>
               <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
+              <input
+                type="email"
+                class="form-element"
+                id="email"
+                name="email"
+                required
+              />
             </p>
           </fieldset>
 
@@ -48,7 +65,13 @@
             <legend>About Your Abduction</legend>
             <p>
               <label for="date">Requested Date</label>
-              <input type="date" id="date" name="date" required />
+              <input
+                type="date"
+                class="form-element"
+                id="date"
+                name="date"
+                required
+              />
             </p>
             <p class="abducted-quantity">
               <label for="quantity"
@@ -56,6 +79,7 @@
               >
               <input
                 type="number"
+                class="form-element"
                 id="quantity"
                 name="quantity"
                 min="1"
@@ -86,7 +110,7 @@
               <label for="adtype"
                 >What Type of Abduction Experience Do You Want?</label
               >
-              <select id="adtype" name="adtype" required>
+              <select id="adtype" class="form-element" name="adtype" required>
                 <option value="" disabled selected>Select</option>
                 <option value="tour">Tour of the solar system</option>
                 <option value="dinenr">Alien dinner and discussion</option>
@@ -96,7 +120,11 @@
             </p>
             <p>
               <label for="comments">Special Requests:</label>
-              <textarea name="comments" id="comments"></textarea>
+              <textarea
+                id="comments"
+                class="form-element"
+                name="comments"
+              ></textarea>
             </p>
             <p>
               <label>
@@ -114,7 +142,7 @@
         </form>
       </section>
       <aside>
-        <h3>Our Location</h3>
+        <h2>Our Location</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1411.1614370128507!2d-93.27191134226143!3d44.977751763344614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b3329a75fc44b3%3A0xab6d15df00205abb!2s60+South+6th+St%2C+Minneapolis%2C+MN+55402!5e0!3m2!1sen!2sus!4v1540308714418"
           width="100%"
