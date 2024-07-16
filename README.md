@@ -4,15 +4,12 @@
 
 This project is a part of the Frontend Masters Bootcamp. It focuses on HTML forms, specifically the lessons dedicated to HTML forms. This is me diving back into the basics to ensure I haven't missed anything and to hone my skills.
 
-![Screenshot](begin/img/screenshot.png)
+![Screenshot](begin/img/screenshot.png)  
+_Screenshot of the Alien Abduction Order Form._
 
 ## Project Structure
 
-- **begin/**: Contains the initial setup of the project.
-  - **css/**: Stylesheets with a modern, alien-themed design.
-  - **img/**: Images used in the project.
-  - **js/**: JavaScript files for backend form submission.
-  - **forms.html**: Initial HTML file.
+- **begin/**: Contains the project files I built from scratch.
 - **end/**: Contains the final version of the project provided by the instructor.
 
 ## Features
@@ -38,17 +35,11 @@ While working on this project, I revisited and found several concepts interestin
 - **Input Attributes**: Reviewed various input attributes and their usage.
 - **Element Connections**: Gained a deeper understanding of how elements like `label`, `input`, `select`, and `option` connect and work together.
 
-### CSS Insights
-
-Although this wasn't primarily a CSS exercise, I learned a lot about the flex property. Specifically:
-
-- The importance of using `.wrapper > *` to set flex properties for child elements.
-- Understanding that setting flex properties for both parent and children (form and aside) ensures smooth responsiveness.
-- Realizing that without this, the layout wouldn't be as responsive as intended.
+This project was a valuable exercise in reinforcing my understanding of HTML forms. Revisiting these concepts allowed me to appreciate the intricacies of form elements and their impact on user experience and accessibility. It was both a refreshing review and a great opportunity to apply what I’ve learned in a fun and engaging way.
 
 ## Acknowledgements
 
-This project is part of the Frontend Masters Bootcamp, specifically focusing on HTML forms lessons. Special thanks to the instructors for providing valuable lessons and resources. Learn more at [Frontend Masters Bootcamp](https://frontendmasters.com/bootcamp/).
+This project is part of the Frontend Masters Bootcamp, specifically focusing on HTML forms lessons. Special thanks to the instructors for providing valuable lessons and resources. Learn more at [Frontend Masters Bootcamp](https://frontendmasters.com/bootcamp/) and [HTML Forms Course](https://frontendmasters.com/bootcamp/html-forms/).
 
 ## Getting Started
 
