@@ -4,8 +4,12 @@
 
 This project is a part of the Frontend Masters Bootcamp. It focuses on HTML forms, specifically the lessons dedicated to HTML forms. This is me diving back into the basics to ensure I haven't missed anything and to hone my skills.
 
-![Screenshot](begin/img/screenshot.png)  
+![Screenshot](img/screenshot.png)  
 _Screenshot of the Alien Abduction Order Form._
+
+## Live Site
+
+You can view the live version of the project [here](https://alien-abduction-order-form.netlify.app/).
 
 ## Features
 
@@ -42,6 +46,6 @@ To get started with this project, clone the repository and open the `forms.html`
 
 ```sh
 git clone https://github.com/tak40/FM-BOOTCAMP-FORMS.git
-cd FM-BOOTCAMP-FORMS/begin
+cd FM-BOOTCAMP-FORMS
 open forms.html
 ```
