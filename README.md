@@ -7,11 +7,6 @@ This project is a part of the Frontend Masters Bootcamp. It focuses on HTML form
 ![Screenshot](begin/img/screenshot.png)  
 _Screenshot of the Alien Abduction Order Form._
 
-## Project Structure
-
-- **begin/**: Contains the project files I built from scratch.
-- **end/**: Contains the final version of the project provided by the instructor.
-
 ## Features
 
 - **HTML Forms**: Demonstrates the use of various form elements including text input, radio buttons, checkboxes, and select dropdowns.
